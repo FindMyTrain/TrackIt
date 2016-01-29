@@ -41,10 +41,37 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Text"
+        android:text="x=0 y=0 z=0"
         android:id="@+id/tv_acc"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/textView_label_Acc"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer (m/s2)"
+        android:id="@+id/textView_label_Acc"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="22dp" />
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gyroscope (rad/s)"
+        android:id="@+id/textView_label_Gyro"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/tv_acc"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x=0 y=0 z=0"
+        android:id="@+id/tv_gyro"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/textView_label_Gyro"
+        android:layout_alignLeft="@+id/tv_acc"
+        android:layout_alignStart="@+id/tv_acc" />
 
 </RelativeLayout>
